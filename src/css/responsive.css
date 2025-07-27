@@ -467,16 +467,14 @@
 
   .text,
   .me-link,
-  .tagline {
-    font-size: var(--text-xl);
-  }
-
+  .tagline,
   .stack-list,
+  .style-list,
   .footer-link,
   .footer-text,
   .description,
   .article {
-    font-size: var(--text-lg);
+    font-size: var(--text-xl);
   }
 
   .language-btn {
@@ -502,6 +500,14 @@
 
   .main-header {
     margin-bottom: 0;
+  }
+
+  .main-img {
+    width: var(--shape-xxl);
+  }
+
+  .wrapper {
+    margin: 0 10vw;
   }
 
   .work-content {

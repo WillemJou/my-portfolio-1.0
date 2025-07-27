@@ -659,6 +659,7 @@
   display: flex;
   justify-content: space-evenly;
   scroll-behavior: smooth;
+  min-height: 100vh;
   gap: var(--measure-12);
 }
 
@@ -753,6 +754,10 @@
     fill: transparent;
   }
 
+  .go-top-btn {
+    background-color: cornflowerblue;
+  }
+
   .theme-icon:hover {
     transition: all 0.2s ease-in-out;
     fill: #ffc53d;
@@ -789,6 +794,10 @@
   .theme-icon:hover {
     transition: all 0.2s ease-in-out;
     fill: #3e63dd;
+  }
+
+  .go-top-btn {
+    background-color: aliceblue;
   }
 
   .upper-link:hover .arrow-icon,
