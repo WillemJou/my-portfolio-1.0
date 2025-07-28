@@ -7,9 +7,9 @@ export function GoTopBtn() {
   const { scrollPosition } = useScrollPosition()
   const location = useLocation()
   const ConditionShowBtn =
-    scrollPosition > 600 && location.pathname !== '/my-portfolio/'
+    scrollPosition > 600 && location.pathname !== '/my-portfolio-1.0/'
   const ConditionShowBtnHighRes =
-    scrollPosition > 1900 && location.pathname === '/my-portfolio/'
+    scrollPosition > 1900 && location.pathname === '/my-portfolio-1.0/'
 
   /**
    * This function determines the visibility of a button based on the scroll

@@ -25,7 +25,7 @@ export function Footer() {
             ? 'Hand Made and Stylized by'
             : 'Fait Main et Designé par'}{' '}
           <Link
-            to="/my-portfolio/about"
+            to="/my-portfolio-1.0/about"
             className="footer-link"
             onClick={scrollToTop}>
             Willem Jouret,

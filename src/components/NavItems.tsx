@@ -16,7 +16,7 @@ export function NavItems({ onClick = () => {} }) {
             if (onClick) onClick()
           }}
           className="navbar-link"
-          to="/my-portfolio/"
+          to="/my-portfolio-1.0/"
           end>
           {stateLanguage === 'en' ? 'Home' : 'Bienvenue'}
         </NavLink>
@@ -28,7 +28,7 @@ export function NavItems({ onClick = () => {} }) {
             if (onClick) onClick()
           }}
           className="navbar-link"
-          to="/my-portfolio/works">
+          to="/my-portfolio-1.0/works">
           {stateLanguage === 'en' ? 'Works' : 'Projets'}
         </NavLink>
       </li>
@@ -39,7 +39,7 @@ export function NavItems({ onClick = () => {} }) {
             if (onClick) onClick()
           }}
           className="navbar-link"
-          to="/my-portfolio/about">
+          to="/my-portfolio-1.0/about">
           {stateLanguage === 'en' ? 'About' : 'À Propos'}
         </NavLink>
       </li>
