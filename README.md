@@ -1,18 +1,18 @@
-# This is my port-folio ! 🌱
+# This is my port-folio 1.0 ! 🌴
 
-Here is my [portfolio](https://willemjou.github.io/my-portfolio/), started with [Vite](https://vitejs.dev/) using the `npm create vite@latest --template react-ts` cli and design with the help of [Astro](https://astro.build/) !
+Here is my [portfolio](https://willemjou.github.io/my-portfolio/), started with [Vite](https://vitejs.dev/) and design with a template from [Astro](https://astro.build/) !
 
-The Astro template:
+Astro template:
 
 - [Astro Template](https://astro.build/themes/details/portfolio/)
 
 ## Made with React + TypeScript + Vite
 
-I used the React library, but also TypeScript for the typing as well as Vite for the environment. The perfect combo for my portfolio !
+I used the React library, but also TypeScript for the typing as well as Vite for the environment.
 
 ## The other library I used
 
-I implemented my routing using [React Router](https://reactrouter.com/en/main) (their documentation is really great!)
+I implemented my routing using [React Router](https://reactrouter.com/en/main)
 
 Otherwise I did everything "bear hand" ! 🐻
 
