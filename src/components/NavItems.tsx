@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { LanguageContext } from '../globals/Languages'
 import { useScrollToTop } from '../hooks/useScrollToTop'
 
-export function NavItems() {
+export function NavItems({ onClick = () => {} }) {
   const languages = useContext(LanguageContext)
   const stateLanguage = languages.language
   const { scrollToTop } = useScrollToTop()
@@ -11,7 +11,10 @@ export function NavItems() {
     <ul className="nav-items gap-2">
       <li className="nav-link-li">
         <NavLink
-          onClick={scrollToTop}
+          onClick={() => {
+            scrollToTop()
+            if (onClick) onClick()
+          }}
           className="navbar-link"
           to="/my-portfolio/"
           end>
@@ -20,7 +23,10 @@ export function NavItems() {
       </li>
       <li className="nav-link-li">
         <NavLink
-          onClick={scrollToTop}
+          onClick={() => {
+            scrollToTop()
+            if (onClick) onClick()
+          }}
           className="navbar-link"
           to="/my-portfolio/works">
           {stateLanguage === 'en' ? 'Works' : 'Projets'}
@@ -28,7 +34,10 @@ export function NavItems() {
       </li>
       <li className="nav-link-li">
         <NavLink
-          onClick={scrollToTop}
+          onClick={() => {
+            scrollToTop()
+            if (onClick) onClick()
+          }}
           className="navbar-link"
           to="/my-portfolio/about">
           {stateLanguage === 'en' ? 'About' : 'À Propos'}

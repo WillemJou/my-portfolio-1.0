@@ -7,7 +7,7 @@ import { Fade } from '../utils/Fade'
 
 type SliderProps = {
   openHamburger: boolean
-  handleOpen: MouseEventHandler
+  handleOpen: () => void
 }
 
 export function Slider({ openHamburger, handleOpen }: SliderProps) {
@@ -40,7 +40,7 @@ export function Slider({ openHamburger, handleOpen }: SliderProps) {
                 </svg>
               </button>
             </div>
-            <NavItems />
+            <NavItems onClick={handleOpen} />
             <Socials />
             <div className="theme-language-container">
               <LanguageBtn />
