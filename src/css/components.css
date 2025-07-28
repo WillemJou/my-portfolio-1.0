@@ -546,6 +546,7 @@
 .carousel-content-wrapper {
   width: 100%;
   overflow: hidden;
+  border: 1mm inset aliceblue;
   border-radius: 10px;
 }
 

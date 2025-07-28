@@ -67,7 +67,12 @@ export function Carousel({ projects, project }: CarouselProps) {
                 MozTransform: `translateX(-${currentImg * 100}%)`,
               }}>
               {project?.pictures.map((pic: string, index: number) => (
-                <img key={index} src={pic} alt="photos des projets" />
+                <img
+                  key={index}
+                  src={pic}
+                  className="img-carousel"
+                  alt="photos des projets"
+                />
               ))}
             </div>
           </div>
