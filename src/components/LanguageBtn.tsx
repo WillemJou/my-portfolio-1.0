@@ -6,7 +6,7 @@ export function LanguageBtn() {
 
   return (
     <button className="language-btn" onClick={() => language.clickHandler()}>
-      <span className="text">{language.language}</span>
+      <span className="text language-text">{language.language}</span>
     </button>
   )
 }
