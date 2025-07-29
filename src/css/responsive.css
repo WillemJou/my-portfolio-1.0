@@ -52,12 +52,26 @@
   .go-top-icon {
     width: 19px;
   }
+
+  .title-home-section {
+    padding-top: 0;
+  }
+
   .title-card {
     font-size: var(--text-xs);
   }
 
   .language-text {
     font-size: var(--text-lg) !important;
+  }
+
+  .theme-language-container {
+    gap: 0;
+  }
+
+  .theme-btn-dark::before {
+    left: 2px;
+    top: 1px !important;
   }
 
   .text,
@@ -261,7 +275,7 @@
   }
 
   .section-header {
-    padding-top: 5vh;
+    padding-top: 2vh;
   }
 
   /* Theme-specific Navigation Styles */
