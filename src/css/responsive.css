@@ -94,7 +94,7 @@
   /* Navigation */
 
   .nav-layout {
-    padding: var(--measure-4) var(--measure-3);
+    padding: var(--measure-4) var(--measure-10);
   }
 
   .nav-items {
